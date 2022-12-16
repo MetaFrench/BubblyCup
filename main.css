@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubbler+One&display=swap');
+
+:root {
+  --main-color: #d4af37;
+  --blue-color: #233d4e;
+  --gray-color: #c8c8c8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Bubbler One', sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  padding: 20px 0;
+}
+
+nav {
+  display: flex;
+  background: var(--gray-color);
+  padding: 7px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav .logo {
+  background: url('/img/transparent_title.png') no-repeat center center/cover;
+  height: 3rem;
+  width: 20rem;
+  margin-right: 20rem;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul li a {
+  padding: 5px 10px;
+  text-decoration: none;
+  color: var(--blue-color);
+  font-size: 2rem;
+}
+
+nav ul li a:hover {
+  color: var(--main-color);
+  transition: all 0.5s ease;
+}
+
+.halvsies {
+  display: flex;
+}
+
+.halvsies div {
+  width: 50%;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.halvsies div h2 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.halvsies div p {
+  padding: 30px 50px;
+  line-height: 1.5;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.halvsies .home_img {
+  background: url(/img/bubbletea_1.jpg) no-repeat center center/cover;
+  width: 50vw;
+}
+
+.halvsies .home_about {
+  background: var(--blue-color);
+  color: var(--gray-color);
+}
+
+#menu-body {
+  background: url(/img/menu-bg.jpg) no-repeat center center/cover;
+}
+
+#menu-body h1 {
+  color: var(--main-color);
+  font-size: 4rem;
+}
+
+.menu-column > h2 {
+  color: var(--light-color);
+  padding: 1rem 0 0 1rem;
+}
+
+#menu-title {
+  color: var(--gray-color);
+  text-align: center;
+  padding: 3rem;
+}
+
+#menu-border {
+  width: 70%;
+  margin: auto;
+}
+
+#menu-border #second-menu-border {
+  width: 100%;
+  height: 100%;
+  border: solid var(--main-color) 2px;
+  margin: auto;
+  padding: 1rem;
+  display: flex;
+  background: var(--gray-color);
+  border-radius: 10px;
+}
+
+#menu-border #second-menu-border .menu-column {
+  width: 100%;
+}
+
+#menu-border #second-menu-border .menu-column table {
+  width: 100%;
+  padding: 1rem;
+  background: var(--gray-color);
+  border-radius: 10px;
+}
+
+#menu-border #second-menu-border .menu-column table thead tr th {
+  text-align: left;
+  padding: 0.5rem;
+  font-weight: 800;
+}
+
+#menu-border #second-menu-border .menu-column table tbody {
+  background: var(--main-color);
+}
+
+#menu-border #second-menu-border .menu-column table tbody tr td {
+  padding: 0.5rem;
+  font-weight: 800;
+}
+
+.about .about_info {
+  background: #d4af37;
+}
+
+.about .about_img {
+  background: url(/img/bubbletea_2.jpg) no-repeat center center/cover;
+}
+
+footer {
+  background: var(--gray-color);
+  width: 100%;
+}
+
+footer p {
+  text-align: center;
+  font-weight: 800;
+  padding: 1.75rem;
+}
