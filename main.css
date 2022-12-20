@@ -92,6 +92,11 @@ nav ul li a:hover {
   color: var(--gray-color);
 }
 
+.halvsies .home_about p {
+  padding: 10px 45px;
+  font-size: 1.1rem;
+}
+
 #menu-body {
   background: url(/img/menu-bg.jpg) no-repeat center center/cover;
 }
