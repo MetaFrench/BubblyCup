@@ -50,7 +50,7 @@ We are committed to providing excellent customer service and a welcoming atmosph
               </thead>
               <tbody>
                 <tr>
-                  <td>Caf&eacute; Americano</td>
+                  <td>Mocha Milk Tea</td>
                   <td>$3.50</td>
                   <td>$4.50</td>
                 </tr>
@@ -174,9 +174,29 @@ Boba tea has become popular around the world and can now be found in many cafes 
     <div class="about_img"></div>
   </div>
   <h1 id="order">Order Online</h1>
-  <div class="order"></div>
+  <div class="order">
+    <div class="flavors"></div>
+    <div class="order_row">
+        <p class="order_title">Bubble Tea</p>
+        <button class="add increment">+</button>
+        <button class="minus increment">-</button>
+        <div class="tally">0</div>
+    </div>
+    <div class="order_row">
+        <p class="order_title">Iced Beverages</p>
+        <button class="add add_two increment">+</button>
+        <button class="minus minus_two increment">-</button>
+        <div class="tally_two tally">0</div>
+    </div>
+    <div class="order_row">
+        <p class="order_title">Total: $</p>
+        <div class="price">0</div>
+        <button class="checkout">Checkout</button>
+    </div>
+  </div>
     <footer>
       <p>BubblyCup&copy; All Rights Reserved</p>
     </footer>
+    <script src="/app.js"></script>
   </body>
 </html>
